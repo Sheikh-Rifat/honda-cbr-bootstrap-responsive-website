@@ -1,0 +1,81 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&display=swap');
+
+
+
+
+
+/* global css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* hero section css */
+
+.hero-section {
+    background-color: #264653;
+}
+
+.text {
+    text-align: justify;
+    color: #E0E0E0;
+}
+
+.hero-btn {
+    background-color: #E76F51;
+    outline: none;
+    border: none;
+    padding: 8px 25px;
+}
+
+/* heading css */
+
+.heading-detail {
+    color: #E76F51;
+}
+
+/* feature bike details css */
+
+.non-highlight{
+    filter: grayscale();
+}
+
+/* News Section Css */
+
+.card-button .btn{
+    background-color: #fff;
+    border: 1px solid #E76F51;
+    padding: 10px 15px;
+    color: #E76F51;
+    transition: .2s;
+}
+
+.card-button .btn:hover{
+    background-color: #E76F51;
+    color: #fff;
+}
+
+
+/* Client section heading css */
+
+.heading span{
+    color: #E76F51;
+}
+
+.rating i{
+    color:  #e77c40;
+    border: #e77c40;
+}
+
+/* footer css */
+
+.footer-highlight{
+    color: #e77c40;
+}
